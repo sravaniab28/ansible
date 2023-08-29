@@ -4,5 +4,5 @@
   # this is the list of tasks/modules/collections
   tasks:
   - name: pinging the server
-   # this isthe map
+    # this isthe map
     ansible.builtin.ping:
