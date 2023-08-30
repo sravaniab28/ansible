@@ -12,9 +12,9 @@
   - name: print the command output
     ansible.builtin.debug:
       msg: "output is: {{out}}"
-  # - name: print exit status
-  #   ansible.builtin.debug:
-  #     msg: "{{out.rc}}"
+  - name: print exit status
+    ansible.builtin.debug:
+      msg: "{{out.rc}}"
   # - when: out.rc != 0
   #   name: create user roboshop
   #   become: yes # we need sudo access for this task only
