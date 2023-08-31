@@ -3,8 +3,7 @@
 
 
 [mongodb]
-roboshop-us-dev-db-mongodb-o1.joindevops.fun
-
+172.31.37.141
 [mongodb:vars]
 MONGO_USERNAME=mongodbadmin
 MONGO_DB=categories
